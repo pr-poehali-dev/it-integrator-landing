@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1777323360328303960.html"
 	],
 	prefix: "",
 	theme: {
@@ -18,7 +19,12 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Oswald', 'sans-serif'],
+				body: ['Golos Text', 'sans-serif'],
+			},
 			colors: {
+				neon: 'hsl(185 100% 55%)',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
